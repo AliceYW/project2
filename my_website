@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assigment 3</title>
+    <meta name="description" content="This is new camera product released.">
+    <meta name="keywords" content="camera, lens, new, release, frame, sensor">
+    <meta name="author" content="Alice Wu">
+    <link href="assets/img/favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome-free-5.15.4-web/css/all.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Fira+Sans&family=Mochiy+Pop+One&family=Raleway:wght@100;300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Fira+Sans&family=Mochiy+Pop+One&family=Raleway:wght@100;300&display=swap');
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <header id="header">
+        <span id="social">
+            <i class="fab fa-apple"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-amazon"></i>
+            <i class="fab fa-facebook"></i>
+        </span>
+        <span id="call_action">Call us now: <a id="phone_number" href="tel:1-555-555-5555" >1-555-555-5555</a></span>
+    </header>
+
+    <nav id="navigation">
+        <img id="logo" src="assets/img/logo.jpg" alt="logo">
+        <ul id="menu_items">
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#pages">Pages</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#shop">Shop</a></li>
+        </ul>
+    </nav>
+
+    <main id="product">
+        <div id="product_description">
+            <h1>The New Product Is Available.</h1>
+            <p>Make Your Awesome Business Idea A Reality With Start. The Fresh New Theme From Select.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <img id="product_image" src="assets/img/product.jpg" alt="product">
+    </main>
+
+    <div id="product_features">
+        <h2>Product Features</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non vestibulum tortor.
+            Curabitur sit amet felis vitae ante venenatis tincidunt a sed velit.</p>
+    </div>
+
+    <div id="review_grid">
+        <div id="review1">
+            <i class="fas fa-award"></i>
+            <h3>High Quality</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non vestibulum tortor. Curabitur sit amet felis vitae ante venenatis tincidunt a sed velit. Nullam mattis ex eu nisl consequat laoreet. Aliquam erat volutpat.
+            </p>
+        </div>
+        <div id="review2">
+            <i class="fas fa-bezier-curve"></i>
+            <h3>Awesome Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non vestibulum tortor. Curabitur sit amet felis vitae ante venenatis tincidunt a sed velit. Nullam mattis ex eu nisl consequat laoreet. Aliquam erat volutpat.
+            </p>
+        </div>
+        <div id="review3">
+            <i class="fas fa-icons"></i>
+            <h3>Latest Technology</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non vestibulum tortor. Curabitur sit amet felis vitae ante venenatis tincidunt a sed velit. Nullam mattis ex eu nisl consequat laoreet. Aliquam erat volutpat.
+            </p>
+        </div>
+        <div id="review4">
+            <i class="fas fa-users"></i>
+            <h3>User Friendly</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non vestibulum tortor. Curabitur sit amet felis vitae ante venenatis tincidunt a sed velit. Nullam mattis ex eu nisl consequat laoreet. Aliquam erat volutpat.
+            </p>
+        </div>
+    </div>
+    <h4>What our customers says</h4>
+    <div id="customer_grid">
+        <div id="figure1">
+            <img src="assets/img/customer3.jpg" alt="customer review" width="100" height="100">
+            <h5>Lisa Susan</h5>
+            <h6 class="job_title">Manager</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non vestibulum tortor. Curabitur sit amet felis vitae ante venenatis tincidunt a sed velit. Nullam mattis ex eu nisl consequat laoreet. Aliquam erat volutpat. Morbi aliquet diam id lacus cursus tristique id ut arcu.
+                Fusce fermentum nisi in urna auctor lobortis.
+            </p>
+        </div>
+        <div id="figure2">
+            <img src="assets/img/customer2.jpg" alt="customer review" width="100" height="100">
+            <h5>John Doe</h5>
+            <h6 class="job_title">Teacher</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non vestibulum tortor. Curabitur sit amet felis vitae ante venenatis tincidunt a sed velit. Nullam mattis ex eu nisl consequat laoreet. Aliquam erat volutpat. Morbi aliquet diam id lacus cursus tristique id ut arcu.
+                Fusce fermentum nisi in urna auctor lobortis.
+            </p>
+        </div>
+        <div id="figure3">
+            <img src="assets/img/customer1.jpg" alt="customer review" width="100" height="100">
+            <h5>Denison Li</h5>
+            <h6 class="job_title">Doctor</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non vestibulum tortor. Curabitur sit amet felis vitae ante venenatis tincidunt a sed velit. Nullam mattis ex eu nisl consequat laoreet. Aliquam erat volutpat. Morbi aliquet diam id lacus cursus tristique id ut arcu.
+                Fusce fermentum nisi in urna auctor lobortis.
+            </p>
+        </div>
+    </div>
+</div>
+<br>
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>
